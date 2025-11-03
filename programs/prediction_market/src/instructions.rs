@@ -110,3 +110,18 @@ pub struct SplitToken<'info> {
     
     pub token_program: Program<'info, Token>,
 }
+
+#[derive(Accounts)]
+pub struct MergeToken {
+
+}
+
+#[derive(Accounts)]
+pub struct SetWinner {
+
+}
+
+#[derive(Accounts)]
+pub struct ClaimRewards {
+    
+}

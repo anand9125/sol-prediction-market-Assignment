@@ -108,4 +108,23 @@ pub mod prediction_market {
         msg!("Minted {} outcome tokens for user", amount);
         Ok(())
     }
+
+
+    pub fn merge_tokens(ctx: Context<MergeToken>) -> Result<()> {
+
+        Ok(())
+        
+    }
+
+    pub fn set_winning_side(ctx: Context<SetWinner>) -> Result<()> {
+
+        Ok(())
+
+    }
+
+    pub fn claim_rewards(ctx: Context<ClaimRewards>) -> Result<()> {
+
+        Ok(())
+
+    }
 }
