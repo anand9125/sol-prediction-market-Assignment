@@ -12,4 +12,14 @@ pub enum PredictionMarketError {
     InvalidAmount,
     #[msg("Math overflow")]
     MathOverflow,
+    #[msg("Invalid wining out come")]
+    InvalidWinningOutcome,
+    #[msg("Market is not setteld yet")]
+    MarketNotSettled,
+     #[msg("Winning outcome is not set yet")]
+    WinningOutcomeNotSet,
+   
 }
+
+
+   
